@@ -1,0 +1,11 @@
+
+pluginManagement {
+    repositories {
+        rootProject.name='BuildYourFirstMap'
+        include ':app'
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+
+    }
+}
